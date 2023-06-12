@@ -29,7 +29,7 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p> UX/UI Designer</p>
+                <p> Full Stack / Software Developer / UI/UX Designer</p>
                 <h2> Hi, I'm <span> Nick </span> <br> from the Gold Coast.</h2>
 
             </div>
@@ -50,26 +50,80 @@
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
                         <p class="tab-links" onclick="opentab('education')"> Education</p>
-                        <p class="tab-links" onclick="opentab('resume')"> My Resume</p>
+                        <p class="tab-links" onclick="opentab('resume')"> More About Me</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX Design</span><br> 
-                               Experience designing and developing an interface for a real-world client based off UX principles and best practices
-                               </li>
-                            <li><span>Web & App Development</span><br>
-                                Experience in Javascript, HTML, CSS, REACT, C#, Java, SQL, Node.js, Angular, Excel & Github </li>
-
-                            <li><span>Jira & Confluence Documentation</span><br>Experience designing & developing user stories, user-tests and other important documentation using agile methodology</li>
-
-                            <li><span>Graphic Design</span><br>Experience in Photoshop, Adobe Illustrator, GIMP
-                              <br></li>
-
-                            <li><span>Video Editing</span><br>Experience in Final cut pro, Adobe Premiere, Adobe After Effects & Sony Vegas</li>
-
-                            <li><span>Cybersecurity</span><br>Studied classes at Southern Cross University</li>
-                        </ul>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <ul>
+                                    <li>
+                                        <span>UI/UX Design</span>
+                                        <ul id="puff1">
+                                            <li>Photoshop</li>
+                                            <li>GIMP</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>Adobe Illustrator</li>
+                                            <li>Graphic Design</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>Front-end Development</span>
+                                        <ul id="puff1">
+                                            <li>JavaScript</li>
+                                            <li>HTML</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>CSS</li>
+                                            <li>React</li>
+                                        </ul>
+                                    </li>
+                                    <li><span>Back-end Development</span><br>
+                                        <ul id="puff1">
+                                            <li>Node Js</li>
+                                            <li>Angular</li>
+                                    
+                                        <ul id="puff2">
+                                            <li>Python</li>
+                                            <li>C#</li>
+                                        </ul>
+                                        </ul>
+                            
+                            </div>
+                            <div class="grid-item">
+                                <ul>
+                                    <li>
+                                        <span>Dev Ops</span>
+                                        <ul id="puff1">
+                                            <li>User Stories &amp; Tests</li>
+                                            <li>Agile methodology</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>Jira</li>
+                                            <li>Confluence</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>Cyber Security</span>
+                                        <ul id="puff1">
+                                            <li>Security Principles</li>
+                                            <li>Network Security</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>Penetration Testing</li>
+                                            <li>Encryption</li>
+                                        </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+
+
+
+
+                    
 
                     <div class="tab-contents" id="education">
                         <ul>
@@ -99,7 +153,7 @@
 
     <!----- Services ----->
 
-<!--     <div id="services">
+    <!--     <div id="services">
         <div class="container">
             <h2 class="sub-title"> My Services </h2>
             <div class="services-list">
@@ -134,7 +188,7 @@
             </div>
         </div>
     </div>  -->
-    
+
 
     <!----- Portfolio ----->
 
@@ -146,10 +200,14 @@
                     <img src="images/work-3.png">
                     <div class="layer">
                         <h3>Public Endoresement App </h3>
-                        <p> A Public Endoresement App, where you can post a public edorsement. The data gets saved to a firebass database so it will be saved and other users can view it too. You can like your own & other users comments once.
+                        <p> A Public Endoresement App, where you can post a public edorsement. The data gets saved to a
+                            firebass database so it will be saved and other users can view it too. You can like your own
+                            & other users comments once.
                             Built with Javascript, HTML & CSS </p>
-                        <a href="https://endorsement-app-nwhite34.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                        <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Endorsement-App"> Github </a>
+                        <a href="https://endorsement-app-nwhite34.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Endorsement-App"> Github
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -158,7 +216,9 @@
                     <img src="images/work-1.png">
                     <div class="layer">
                         <h3>Grocery Shopping List App </h3>
-                        <p> A Grocery Shopping List App , where you can post a public edorsement. The data gets saved to a firebass database so it will be saved and other users can view it too. You can like your own & other users comments once.
+                        <p> A Grocery Shopping List App , where you can post a public edorsement. The data gets saved to
+                            a firebass database so it will be saved and other users can view it too. You can like your
+                            own & other users comments once.
                             Built with Javascript, HTML & CSS </p>
                         <a href="https://add-to-cart-nickwhiteley.netlify.app/"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i> </a>
@@ -178,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn"> See More</a>
+            <a href="#" class="btn"> Go Back Up!</a>
         </div>
     </div>
 
@@ -197,7 +257,7 @@
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/NICK WHITELEY RESUME 2022.docx" download class="btn btn2"> Download CV </a>
+                    <a href="images/NICHOLAS-WHITELEY-RESUME.docx" download class="btn btn2"> Download CV </a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -211,7 +271,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p> Copyright © Nick Whiteley.
+            <p> Copyright © Nick Whiteley Portfolio. All rights reserved
             </p>
         </div>
     </div>
