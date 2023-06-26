@@ -488,15 +488,15 @@ nav .fa-solid {
 #puff2 li {
     display: inline-block;
     width: 100px;
-    /* Adjust the width as needed */
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    padding-right: 200px;
 }
 
 .grid-item {
     grid-column: span 1;
 }
+
