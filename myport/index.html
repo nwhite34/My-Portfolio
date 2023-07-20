@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Whiteley Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cfd92ee0d1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <img src="images/nick-logo2.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Junior Front-end Developer</p>
+                <h2> Hi, I'm <span> Nick </span> <br> from the Gold Coast</h2>
+
+            </div>
+        </div>
+    </div>
+
+    <!----- About ----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/21.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title"> About Me</h2>
+                    <p> </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education</p>
+                        <p class="tab-links" onclick="opentab('resume')"> More About Me</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <ul>
+                                    <li>
+                                        <span>UI/UX Design</span>
+                                        <ul id="puff1">
+                                            <li>Adobe Photoshop</li>
+                                            <li>GIMP</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>Adobe Illustrator</li>
+                                            <li>Figma</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>Front-end Development</span>
+                                        <ul id="puff1">
+                                            <li>JavaScript</li>
+                                            <li>React</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                        </ul>
+                                    </li>
+                                    <li><span>Back-end Development</span><br>
+                                        <ul id="puff1">
+                                            <li>Node.Js</li>
+                                            <li>mySQL</li>
+
+                                            <ul id="puff2">
+                                                <li>Python</li>
+                                                <li>PHP</li>
+                                            </ul>
+                                        </ul>
+
+                            </div>
+                            <div class="grid-item">
+                                <ul>
+                                    <li>
+                                        <span>Dev Ops</span>
+                                        <ul id="puff1">
+                                            <li>User Stories &amp; Tests</li>
+                                            <li>Agile methodology</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>Jira</li>
+                                            <li>Confluence</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>Cyber Security</span>
+                                        <ul id="puff1">
+                                            <li>Security Principles</li>
+                                            <li>Network Security</li>
+                                        </ul>
+                                        <ul id="puff2">
+                                            <li>Penetration Testing</li>
+                                            <li>Encryption</li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>2023</span><br>Front-end Developer Course (Scrimba.com)</li>
+                            <li><span>2020 - 2023</span><br>Bachelor of Information Technology, Majoring in User
+                                Experience (Southern Cross University)</li>
+                                <li><span>2017 - 2018</span><br>Certificate III/IV in Fitness, Certificate II in Nutrition
+                                    (HPC) </li>
+
+                            <li><span>2015</span><br>Graduated Highschool </li>
+                        
+                           
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="resume">
+                        <ul>
+                            <li><span></span><br> Hello there! My name is Nick, and I'd love to share a bit about myself. <br>
+                                I recently graduated from Southern Cross University with a Bachelor of IT. With a passion <form action=""></form>
+                                I thrive on challenges and possess a natural curiosity about the intricacies <br> of how and 
+                                why things happen.  My strong work ethic drives me to continuously <br>learn and strive for excellence, 
+                                enabling me to deliver the best possible results. <br>As a developer,I find immense joy in crafting exceptional 
+                                tools and programs <br>that accomplish  remarkable feats. Alongside my passion  for technology, I am an <br> active individual
+                                 who enjoys being around people, as I naturally gravitate towards<br> social interactions. While I've been commended for
+                                  my effective communication <br> skills, I persistently push myself every day to further enhance them. If <br> you're interested 
+                                  in exploring my portfolio as a software developer, <br>please feel free to browse through my work.</li>
+                            <li><span>Download my resume</span><br></li>
+                            <a href="images/Nicholas-Whiteley-Resume.pdf" download class="btn btn2"> Download Resume
+                            </a>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----- Services ----->
+
+    <!--     <div id="services">
+        <div class="container">
+            <h2 class="sub-title"> My Services </h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3> Web & App Design </h3>
+                    <p>
+                    <ul>
+                        <li> Proficient with Javascript </li>
+                        <li> REACT </li>
+                        <li> HTML </li>
+                        <li> CSS </li>
+                        <li> Github </li>
+                    </ul>
+                    </p>
+                    <a href="#"> Learn More </a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-eye"></i>
+                    <h3> UI/UX Design & Graphic Design</h3>
+                    <p> Majoring in User experience, I have researched understanding the user experience</p>
+                    <a href="#"> Learn More </a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3> Cybersecurity </h3>
+                    <p> Cybersecurity management</p>
+                    <a href="#"> Learn More </a>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+
+
+    <!----- Portfolio ----->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title"> My Websites </h2>
+            <div class="work-list">
+             
+                <div class="work">
+                    <img src="images/newdiv3pic.JPG">
+                    <div class="layer">
+
+                        <h3>My Learning Journal</h3>
+                        <p> Built with Javascript, HTML & CSS </p>
+                        <a href="https://my-learning-journal-nwhite34.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"> </i> </a>
+                        <p id="githubLink"> <a href="https://github.com/nwhite34/My-Learning-Journal"> Github </a> </p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/nft.JPG">
+                    <div class="layer">
+
+                        <h3>My NFT responsive website</h3>
+                        <p> Built with Javascript, HTML & CSS</p>
+                        <a href="https://thunderous-haupia-e1fc11.netlify.app/#"><i
+                                class="fa-solid fa-arrow-up-right-from-square"> </i> </a>
+                        <p id="githubLink"> <a href="https://github.com/nwhite34/Responsive-Nft-Design"> Github </a> </p>
+                    </div>
+                </div>
+    </div>
+   
+</div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title"> My Apps </h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/newdiv1pic.jpg">
+                <div class="layer">
+                    <h3>Restaurant Ordering App </h3>
+                    <p> Built with JavaScript, HTML & CSS </p>
+                    <a href="https://restaurant-order-app-nwhite34.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Restaurant-Order-App"> Github
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/newdiv2pic.jpg">
+                <div class="layer">
+                    <h3>Grocery Shopping List App </h3>
+                    <p> Built with Javascript, HTML & CSS </p>
+                    <a href="https://add-to-cart-nickwhiteley.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Add-To-Counter"> Github </a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/nftftft.JPG">
+                <div class="layer">
+
+                    <h3>Twitter Clone App</h3>
+                    <p> Built with Javascript, HTML & CSS </p>
+                    <a href="https://nwhite34-twitter-clone.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"> </i> </a>
+                    <p id="githubLink"> <a href="https://github.com/nwhite34/Twitter-clone"> Github </a> </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/nftft.JPG">
+                <div class="layer">
+
+                    <h3>Pumpkin's Purrfect Meme Picker</h3>
+                    <p> Built with Javascript, HTML & CSS</p>
+                    <a href="https://relaxed-pegasus-85f9f7.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"> </i> </a>
+                    <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Pumpkins-Purrfect-Meme-Picker"> Github </a> </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-7.jpg">
+                <div class="layer">
+
+                    <h3>TinDog</h3>
+                    <p> Built with Javascript, HTML & CSS</p>
+                    <a href="https://tindog-nwhite34.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"> </i> </a>
+                    <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Tindog"> Github </a> </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-8.jpg">
+                <div class="layer">
+
+                    <h3>Colour Scheme Generator</h3>
+                    <p> Built with Javascript, HTML & CSS an API from https://www.thecolorapi.com/</p>
+                    <a href="https://colour-scheme-nwhite34.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"> </i> </a>
+                    <p id="githubLink"> <a href="https://github.com/nwhite34/JavaScript-Nicks-Colour-Scheme"> Github </a> </p>
+                </div>
+            </div>
+</div>
+<a href="#" class="btn"> Go back up</a>
+</div>
+</div>
+    <!----- Contact ----->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title"> Contact Me</h2>
+                    <p> <i class="fa-solid fa-paper-plane"></i> nick-whiteley@hotmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 0423 716 964</p>
+                    <div class="social-icons"> 
+                     
+                        <a href="https://www.linkedin.com/in/nick-whiteley-1a413a27b/"><i class="fa-brands fa-linkedin contact-left"> </i> </a>
+                    </div>
+                    <a href="images/Nicholas-Whiteley-Resume.pdf" download class="btn btn2"> Download CV </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © Nick Whiteley Portfolio. All rights reserved
+            </p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
