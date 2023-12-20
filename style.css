@@ -221,17 +221,21 @@ nav ul li a:hover::after {
 }
 
 .work {
-  border-radius: 10px;
   position: relative;
+  width: 100%;
+  padding-top: 100%; /* 16:9 Aspect Ratio */
   overflow: hidden;
-  cursor: pointer;
 }
 
 .work img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* this will cover the area, cropping the image if necessary */
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
   
 .layer {
   width: 100%;
