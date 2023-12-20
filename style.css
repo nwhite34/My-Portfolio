@@ -223,7 +223,7 @@ nav ul li a:hover::after {
 .work {
   position: relative;
   width: 100%;
-  padding-top: 100%; /* 16:9 Aspect Ratio */
+  padding-top: 50vh; /* 16:9 Aspect Ratio */
   overflow: hidden;
 }
 
@@ -254,6 +254,9 @@ nav ul li a:hover::after {
   text-align: center;
   font-size: 14px;
   transition: height, 0.5s;
+
+
+  
 }
 
 .layer h3 {
