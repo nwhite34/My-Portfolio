@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: #080808;
+  background: #010201;
   color: #fff;
 }
 
@@ -31,7 +31,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #080808;
+  background-color: #010201;
   position: fixed;
   top: 0px;
   width: 80%;
