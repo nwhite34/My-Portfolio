@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 }
 
 .container {
-  padding: 100px 10%;
+  padding: 50px 10%;
 }
 
 .container, footer, nav, #header, .row, .contact-right, .contact-left, form input, form textarea {
@@ -398,12 +399,18 @@ form .btn2 {
 }
 
 .copyright {
-  width: 100%;
+
   text-align: center;
   padding: 25px 0;
   background: #262626;
   font-weight: 300;
   margin-top: 20px;
+
+    max-width: 100vw; /* Ensure the footer doesn't extend beyond the viewport width */
+    position: relative;
+    bottom: 0; /* Ensure the footer stays at the bottom of the viewport */
+  
+  
 }
 
 .copyright i {
@@ -416,10 +423,23 @@ nav .fa-solid {
   display: none;
 }
 
+
 @media only screen and (max-width: 600px) {
+
+  .body{
+    width: 100%;
+  }
   #header {
     background-image: url(images/phone-background.png);
   }
+
+  .container {
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+  
+
 
   .header-text {
     margin-top: 100%;
@@ -492,6 +512,7 @@ nav .fa-solid {
 
   .copyright {
     font-size: 14px;
+    width: 100%;
   }
 }
 
